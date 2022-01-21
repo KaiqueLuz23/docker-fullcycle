@@ -7,5 +7,5 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./:/usr/share/nginx
+      - ./:/usr/share/nginx/html
     container_name: laravel-kl23 
