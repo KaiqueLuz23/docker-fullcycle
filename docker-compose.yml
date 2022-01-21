@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  laravel-app:
+    # o "." chama o dockerfile
+    build: .
+    ports:
+      - "8080:80"
+    container_name: laravel-kl23 
